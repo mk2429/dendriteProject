@@ -37,10 +37,10 @@ export const Navbar = () => {
             display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%", justifyContent: "space-around", alignItems: "center", position: "absolute", top: "0px"
         }}>
             <div><img src="https://i.ibb.co/nkzBMNv/logo.png" style={{ height: "12vw", minHeight: "80px", maxHeight: "140px", marginRight: "10px" }} /></div>
-            <div><h1 style={{ color: "white", textAlign: "end", fontSize: "5vmin" }}>Your Favourite Tunes<br />All <DarkModeIcon style={{ color: "yellow", fontSize: isMoonHovered ? "8vmin" : "6vmin" }} onMouseEnter={() => setisMoonHovered(true)} onMouseLeave={() => setisMoonHovered(false)} />  and All <WbSunnyIcon style={{ color: "yellow", fontSize: isSunHovered ? "8vmin" : "6vmin" }} onMouseEnter={() => setisSunHovered(true)} onMouseLeave={() => setisSunHovered(false)} />  </h1></div>
+            <div><h1 style={{ color: "white", textAlign: "center", fontSize: "5vmin" }}>Your Favourite Tunes<br />All <DarkModeIcon style={{ color: "yellow", fontSize: isMoonHovered ? "8vmin" : "6vmin" }} onMouseEnter={() => setisMoonHovered(true)} onMouseLeave={() => setisMoonHovered(false)} />  and All <WbSunnyIcon style={{ color: "yellow", fontSize: isSunHovered ? "8vmin" : "6vmin" }} onMouseEnter={() => setisSunHovered(true)} onMouseLeave={() => setisSunHovered(false)} />  </h1></div>
         </div>
 
-        <div className="    mx-0  d-flex align-items-center justify-content-center" style={{ width: "5%", height: "100%", background: "linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(9,9,121,0.2359068627450981) 110%)", position: "fixed", top: "0px", left: "0px" }}>
+        <div className="    mx-0  d-flex align-items-center justify-content-center" style={{ width: "7%", height: "100%", background: "linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(9,9,121,0.2359068627450981) 110%)", position: "fixed", top: "0px", left: "0px" }}>
             <div className="  px-3 pt-2  text-white " >
 
                 <ul className="nav  nav-pills flex-column  mb-0  align-items-center  align-items-md-start " id="menu"  >
