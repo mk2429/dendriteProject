@@ -2,11 +2,11 @@ import React, { useState, useEffect, createContext, useContext } from "react";
 
 const url = 'https://shazam.p.rapidapi.com/songs/list-recommendations?key=484129036&locale=en-US';
 const options = {
-  method: 'GET',
-  headers: {
-    'X-RapidAPI-Key': '8183d6c59amsh359abbdb44db3e0p1fe918jsn0aaf9408e52c',
-    'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
-  }
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '57b606a8edmsh07fee7e2df43ce6p1f9d7djsnafc01e5d9ebb',
+		'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
+	}
 };
 type Track = {
   id: number;
